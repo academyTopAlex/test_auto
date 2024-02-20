@@ -4,7 +4,7 @@ import pytest
 
 @pytest.mark.parametrize("a, b, result", [(10, 5, 2),
                                           (100, 2, 50),
-                                          (50, 2, 25),
+                                          (50, 2, 1000),
                                           (60, 30, 2),
                                           (60, 30, 2)])
 def test_division_good(a, b, result):
